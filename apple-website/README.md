@@ -1,16 +1,101 @@
-# React + Vite
+# 🍎 Apple iPhone 15 Pro Website Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clone of Apple's iPhone 15 Pro landing page built with React and Tailwind CSS, with GSAP animations for practice. Built by following the JavaScript Mastery tutorial.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Smooth entry animations using GSAP
+- Clean Apple-inspired UI with Tailwind CSS
+- Responsive layout across all screen sizes
+- Component-based React architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** — UI library
+- **Vite** — fast dev server and bundler
+- **Tailwind CSS** — utility-first styling
+- **GSAP** — animations (`gsap.from`, `gsap.to`, `useGSAP`, `stagger`)
+
+---
+
+## 📁 Project Structure
+
+```
+apple-website/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Highlights.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+```
+
+---
+
+## ⚙️ Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/yarnagulagauravdeep-cyber/React-projects.git
+
+# Navigate to the project
+cd React-projects/apple-website
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 💡 Concepts Practiced
+
+- `useGSAP` hook for animations inside React
+- `gsap.from` and `gsap.to` for entry animations
+- `stagger` for sequential element animations
+- Tailwind CSS utility classes and responsive design
+- React component structure and props
+
+---
+
+## 📦 Key Packages
+
+```bash
+npm install gsap @gsap/react
+```
+
+---
+
+## 🙏 Credits
+
+- Tutorial by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)
+- Original repo: [adrianhajdin/iphone](https://github.com/adrianhajdin/iphone)
+
+---
+
+## 🧑‍💻 Author
+
+**Gaurav Deep** — B.Tech ECM @ VIT Chennai  
+GitHub: [@yarnagulagauravdeep-cyber](https://github.com/yarnagulagauravdeep-cyber)
+
+---
+
+## 📌 Part of
+
+This project is part of my [React-projects](https://github.com/yarnagulagauravdeep-cyber/React-projects) monorepo — a collection of React apps built while learning React.
